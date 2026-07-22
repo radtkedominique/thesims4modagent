@@ -1,0 +1,28 @@
+# Environment / Secrets
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# uv
+# uv.lock bleibt versioniert; nur lokale Caches ignorieren
+
+# Project caches / logs / output
+cache/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
